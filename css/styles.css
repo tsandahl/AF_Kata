@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: Arial, Verdana, sans-serif;
+}
+
+.to-do-container {
+  background-color: #f0f0f0;
+  border: 10px solid rgba(0, 0, 0, 0.06);
+  margin: 0 auto;
+  max-width: 800px;
+  padding-bottom: 40px;
+}
+
+.task-tracker-container {
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.to-do-header {
+  padding: 40px 30px;
+}
+
+h1 {
+  font-size: 34px;
+  font-weight: bold;
+  margin: 0;
+}
+
+h2 {
+  color: #676767;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+}
+
+h3 {
+  font-family: Georgia, Times, serif;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.to-do-wrapper {
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.col-6 {
+  border-right: 5px solid rgba(0, 0, 0, 0.06);
+  display: block;
+  float: left;
+  padding-top: 35px;
+  width: 43%;
+}
+
+.col-6:last-child {
+  border-right: none;
+}
+
+.to-do-input {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.to-do-input label {
+  display: block;
+  font-size: 14px;
+  margin: 0 0 2px 0;
+}
+
+.to-do-input input[type=text],
+.to-do-input input[type=date] {
+  background-color: #ececec;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  border-radius: 2px;
+  box-shadow: none;
+  display: block;
+  height: 35px;
+  margin: 0 0 30px 0;
+  width: 100%;
+}
+
+.to-do-input input[type=submit] {
+  background-color: #434343;
+  border: 0;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: Georgia, Times, serif;
+  font-size: 18px;
+  padding: 15px;
+}
+
+
+.to-do-existing {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.task-items {
+  border: 4px solid #dedede;
+  border-radius: 2px;
+  list-style-type: none;
+  padding: 0 2px;
+}
+
+.task-items li {
+  padding: 10px 15px 15px 15px;
+}
+
+.task-items li:nth-child(even) {
+  background-color: #ececec;
+  border-radius: 2px;
+}
+
+.task-items li span {
+  color: #666666;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.task-items li span:first-child {
+  color: #000000;
+  font-family: Georgia, Times, serif;
+  font-size: 14px;
+}
+
+.task-items li span:last-child {
+  color: #000000;
+  font-size: 12px;
+  font-weight: bold;
+  float: right;
+}
